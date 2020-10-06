@@ -1,0 +1,22 @@
+.not-found-container {
+    min-height: calc(100vh - 60px);
+    background: url('../../images/stars.svg'), #1B1B25;
+    color: #98ca3f;
+    display: flex;
+}
+
+.not-found-container__col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.not-found-container__col--text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.not-found-container__col--img {
+    height: 90%;
+}
